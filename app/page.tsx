@@ -49,7 +49,7 @@ export default function Home() {
       } else {
         setResult("❌ Something went wrong. Please try again.");
       }
-    } catch (err) {
+    } catch {
       setResult("❌ Network error. Please try again.");
     } finally {
       setLoading(false);
